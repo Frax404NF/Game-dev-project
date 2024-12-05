@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\GitHub\\Game-dev-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|D:\\GitHub\\Game-dev-project\\assets\\scripts\\main menu\\mainpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|d:\\github\\game-dev-project\\assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|d:\\github\\game-dev-project\\assets\\scripts\\main menu\\mainpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu\\mainpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,11 +19,11 @@
       "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|d:\\github\\game-dev-project\\assets\\scripts\\main menu\\modepanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|D:\\GitHub\\Game-dev-project\\assets\\scripts\\main menu\\modepanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu\\modepanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|d:\\github\\game-dev-project\\assets\\scripts\\main menu\\dialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|D:\\GitHub\\Game-dev-project\\assets\\scripts\\main menu\\dialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu\\dialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "GameOverUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\GameOverUI.cs",
+              "RelativeDocumentMoniker": "Assets\\GameOverUI.cs",
+              "ToolTip": "D:\\GitHub\\Game-dev-project\\Assets\\GameOverUI.cs",
+              "RelativeToolTip": "Assets\\GameOverUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:21:43.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ModePanelController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\ModePanelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\ModePanelController.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Main Menu\\ModePanelController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T20:05:23.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T20:05:23.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPanelController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\MainPanelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\MainPanelController.cs",
@@ -60,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Movement.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T18:02:21.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T18:02:21.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\MainMenuController.cs",
@@ -81,12 +96,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Main Menu\\MainMenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T18:01:58.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T18:01:58.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DialogController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\DialogController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\DialogController.cs",
@@ -94,8 +108,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Main Menu\\DialogController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T17:58:11.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T17:58:11.906Z"
             }
           ]
         }
