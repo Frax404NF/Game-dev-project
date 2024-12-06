@@ -1,0 +1,561 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\6000.0.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+D:/GitHub/Game-dev-project
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+62576
+-job-worker-count
+1
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/GitHub/Game-dev-project
+D:/GitHub/Game-dev-project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13292]  Target information:
+
+Player connection [13292]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 670338840 [EditorId] 670338840 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IC10J0GO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13292] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13292] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
+[Subsystems] Discovering subsystems at path D:/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Game-dev-project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     3984 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'D:/6000.0.29f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014694 seconds.
+- Loaded All Assemblies, in  0.582 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.427 seconds
+Domain Reload Profiling: 1009ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (202ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (427ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.301 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.138 seconds
+Domain Reload Profiling: 2439ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (906ms)
+		LoadAssemblies (659ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (284ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (838ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (636ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5968 unused Assets / (4.6 MB). Loaded Objects now: 6669.
+Memory consumption went from 164.3 MB to 159.7 MB.
+Total: 13.977700 ms (FindLiveObjects: 0.877000 ms CreateObjectMapping: 1.116300 ms MarkObjects: 7.779300 ms  DeleteObjects: 4.203600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122021.667242 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans
+  artifactKey: Guid(544edcd87f525fe4a94d744284ccb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans using Guid(544edcd87f525fe4a94d744284ccb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1950808c80d1068616d1b911bea53472') in 0.0107653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Blue.prefab
+  artifactKey: Guid(6b52fdac14b689b4bb073d05d46c6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Blue.prefab using Guid(6b52fdac14b689b4bb073d05d46c6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f25f96877fb0933787039be7fa1cb9fb') in 112.25553069999999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5953 unused Assets / (4.7 MB). Loaded Objects now: 6818.
+Memory consumption went from 143.4 MB to 138.6 MB.
+Total: 14.882900 ms (FindLiveObjects: 0.978900 ms CreateObjectMapping: 1.827600 ms MarkObjects: 8.195000 ms  DeleteObjects: 3.879800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.112 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.838 seconds
+Domain Reload Profiling: 21957ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (11607ms)
+		LoadAssemblies (5979ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5810ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (5756ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (9840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2834ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (69ms)
+			BeforeProcessingInitializeOnLoad (432ms)
+			ProcessInitializeOnLoadAttributes (1992ms)
+			ProcessInitializeOnLoadMethodAttributes (237ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
+Refreshing native plugins compatible for Editor in 7.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5960 unused Assets / (7.2 MB). Loaded Objects now: 6713.
+Memory consumption went from 153.3 MB to 146.1 MB.
+Total: 44.883900 ms (FindLiveObjects: 1.682100 ms CreateObjectMapping: 2.972800 ms MarkObjects: 21.366900 ms  DeleteObjects: 18.855400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 87.319066 seconds.
+  path: Assets/Mess Maker Free/Materials
+  artifactKey: Guid(ff073c875bd21be4ca5724fafb7799bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials using Guid(ff073c875bd21be4ca5724fafb7799bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6cdd3dc1b2f1a60ab19b32c5492ea39') in 0.0267768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mess Maker Free/Materials/Chicken Bone.mat
+  artifactKey: Guid(6817ac00176b7c34fae0cc46f9256374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Chicken Bone.mat using Guid(6817ac00176b7c34fae0cc46f9256374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a42c68d8ba49617e0c28660aa12f8d48') in 45.2477174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Mess Maker Free/Materials/Glass Red.mat
+  artifactKey: Guid(7cf48fd5766c6434793af2f49f0643cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Glass Red.mat using Guid(7cf48fd5766c6434793af2f49f0643cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0575b483340646ef25b12b74cc92467') in 0.0442474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mess Maker Free/Materials/Wine Label Red.mat
+  artifactKey: Guid(fb8a5b429f95ab946bf6f096f1c86455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Wine Label Red.mat using Guid(fb8a5b429f95ab946bf6f096f1c86455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a63086de716882a16a3610eff1c325f') in 1.0800565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mess Maker Free/Materials/Beer Label Blue.mat
+  artifactKey: Guid(a54ec300e0734614bbf766aa323f74e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Beer Label Blue.mat using Guid(a54ec300e0734614bbf766aa323f74e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226e8e8397587e221bb572801d070a0d') in 0.0575751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Mess Maker Free/Materials/AppleCore Red.mat
+  artifactKey: Guid(d50d0b1007285794e9b4fe249f5efda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/AppleCore Red.mat using Guid(d50d0b1007285794e9b4fe249f5efda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27e12d9fac401ebba2d0ff73cbf5ca3') in 0.0436301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Mess Maker Free/Materials/Beer Can Green.mat
+  artifactKey: Guid(53eee7cd88f521c499c9c2b4a993651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Beer Can Green.mat using Guid(53eee7cd88f521c499c9c2b4a993651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9ef8d99c80337523d059d8d2296714e') in 0.0406051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Mess Maker Free/Materials/Fish Bone.mat
+  artifactKey: Guid(09c68016b003f564297d4478ae9c3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Fish Bone.mat using Guid(09c68016b003f564297d4478ae9c3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '961ace6e93d83b91254ae765ece3f64f') in 0.0375515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mess Maker Free/Materials/RockBrown.mat
+  artifactKey: Guid(c4f9a235e62de2a40aced9042113fd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/RockBrown.mat using Guid(c4f9a235e62de2a40aced9042113fd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdcb3f2eecfc14c342d868c1bd5cb094') in 0.0827984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mess Maker Free/Materials/Beer Label Red.mat
+  artifactKey: Guid(bd940acd5b5d3a54fa4588a7e5612303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Beer Label Red.mat using Guid(bd940acd5b5d3a54fa4588a7e5612303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7ee41750f212551873ec1476850b20a') in 0.0283181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Mess Maker Free/Materials/Glass Clear.mat
+  artifactKey: Guid(201aeac2a3860724e984461d5688701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Glass Clear.mat using Guid(201aeac2a3860724e984461d5688701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b262ca6d8c6883052dc9858fc347f307') in 0.0280542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001753 seconds.
+  path: Assets/Mess Maker Free/Materials/Beer Label Green.mat
+  artifactKey: Guid(003b5559c89d64644b6922a14ee8d118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Beer Label Green.mat using Guid(003b5559c89d64644b6922a14ee8d118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b52df7b1646688f70e4a2a26e22a683f') in 0.0758613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mess Maker Free/Materials/Porcelin White.mat
+  artifactKey: Guid(e968aa4d28058a440a477fba7ce01084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Porcelin White.mat using Guid(e968aa4d28058a440a477fba7ce01084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42577a1490417c490906ee34574314ed') in 0.0428374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mess Maker Free/Materials/Cheeseburger.mat
+  artifactKey: Guid(2eca8f0c22069114dbbd46a2f7da3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Cheeseburger.mat using Guid(2eca8f0c22069114dbbd46a2f7da3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a830c9072fa1b7e20c502e27f639014b') in 0.103806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Mess Maker Free/Materials/Vodka Label.mat
+  artifactKey: Guid(477af023eafa6ca44a2c37e85c85c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Vodka Label.mat using Guid(477af023eafa6ca44a2c37e85c85c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e140bb8e7968dc51a8ff13a909dec4') in 0.5081226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mess Maker Free/Materials/Wood.mat
+  artifactKey: Guid(b6d4eb550b268604dba640237e0c07f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Wood.mat using Guid(b6d4eb550b268604dba640237e0c07f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd63ef932e3ff81fd1c350c49aa4f6f') in 0.6466987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Mess Maker Free/Materials/Soda Can Orange.mat
+  artifactKey: Guid(4b23fabc9b0e10f4cbc796f8cdf5aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Soda Can Orange.mat using Guid(4b23fabc9b0e10f4cbc796f8cdf5aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc198db6d4259cb523e2952b0157d7e') in 5.6973488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Mess Maker Free/Materials/Beer Can Red.mat
+  artifactKey: Guid(3d4532c195c8ce54796cf9dd8267773d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Beer Can Red.mat using Guid(3d4532c195c8ce54796cf9dd8267773d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '063aa0fdfa536c853d02481260258f88') in 0.0266416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mess Maker Free/Materials/Simple Metal.mat
+  artifactKey: Guid(a7e6c0ebefd8b944dae05ea29b172edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Simple Metal.mat using Guid(a7e6c0ebefd8b944dae05ea29b172edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d9d0915669e77e2c7373882f80490b') in 0.0206096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mess Maker Free/Materials/Glass Red Dark.mat
+  artifactKey: Guid(818f028ce1fee8746983e9269c738c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Glass Red Dark.mat using Guid(818f028ce1fee8746983e9269c738c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3151f25c0513fdc51edabea305c41dfe') in 0.0504815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.008183 seconds.
+  path: Assets/Mess Maker Free/Materials/Soda Can Red 1.mat
+  artifactKey: Guid(7ebe3ac864140434ca2fa8445c5cd453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Soda Can Red 1.mat using Guid(7ebe3ac864140434ca2fa8445c5cd453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73960ab470a4b691e6ecbf2ccab01eef') in 0.0440033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.031673 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/Chicken Bone NRM.png
+  artifactKey: Guid(164b14f55ca68e94cb8abc775977f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/Chicken Bone NRM.png using Guid(164b14f55ca68e94cb8abc775977f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae9b308550f7006b75ae86fa7b26aac8') in 2.2430085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/Wine Label Green.png
+  artifactKey: Guid(0542d29390031b54a88d59ff8fb6ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/Wine Label Green.png using Guid(0542d29390031b54a88d59ff8fb6ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092bf9fda23323a21d7725f5c591e745') in 11.9657178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/Fish Bone NRM.png
+  artifactKey: Guid(6ac847bd8d5c452459256dc46629947f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/Fish Bone NRM.png using Guid(6ac847bd8d5c452459256dc46629947f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '585506e5b78d8614492166d96676b6d5') in 0.0505704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/PotteryNormal.png
+  artifactKey: Guid(7e144a6513825324aa9ed3156efd5692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/PotteryNormal.png using Guid(7e144a6513825324aa9ed3156efd5692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06b0f7696ee8f860cba1d12aaa3690d5') in 0.0437363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/Soda Can Orange.png
+  artifactKey: Guid(bc58a7c75d268d646b483b2a21814700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/Soda Can Orange.png using Guid(bc58a7c75d268d646b483b2a21814700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39c58ee230b61d829a0a77247b28568f') in 0.035147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.318503 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab
+  artifactKey: Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab using Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e91d3f259021064f44fc5590a779b73a') in 0.1500893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106963 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab
+  artifactKey: Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab using Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea513fd2fb346ec08025495d4ec4d336') in 0.0358159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.015341 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab
+  artifactKey: Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab using Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7becdf1f5da9a280cc179afb9f2a74be') in 0.0446699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.954844 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab
+  artifactKey: Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab using Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18b9566a32de2a3346c8d8955f51d770') in 0.0382595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.564248 seconds.
+  path: Assets/Mess Maker Free/Used
+  artifactKey: Guid(1218d1e88fb4f5c45bc6fb38c810e8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Used using Guid(1218d1e88fb4f5c45bc6fb38c810e8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f52649ec259f7b90d6ba9b7cbca290de') in 0.006281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.389890 seconds.
+  path: Assets/Mess Maker Free/Used/Soda Can Red.prefab
+  artifactKey: Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Used/Soda Can Red.prefab using Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba21ad17736633b1949b0970b20c7d1') in 0.1442014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.955 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.015 seconds
+Domain Reload Profiling: 18983ms
+	BeginReloadAssembly (702ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (76ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (226ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1079ms)
+		LoadAssemblies (816ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (521ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (467ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (17021ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16154ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (29ms)
+			BeforeProcessingInitializeOnLoad (465ms)
+			ProcessInitializeOnLoadAttributes (9009ms)
+			ProcessInitializeOnLoadMethodAttributes (6582ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (89ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5961 unused Assets / (2.1 MB). Loaded Objects now: 6772.
+Memory consumption went from 156.1 MB to 154.0 MB.
+Total: 25.889300 ms (FindLiveObjects: 1.002500 ms CreateObjectMapping: 5.165400 ms MarkObjects: 11.065500 ms  DeleteObjects: 8.652500 ms)
+
+Prepare: number of updated asset objects reloaded= 0

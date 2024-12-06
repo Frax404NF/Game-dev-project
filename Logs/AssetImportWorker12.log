@@ -981,3 +981,653 @@ Memory consumption went from 173.4 MB to 169.8 MB.
 Total: 54.113500 ms (FindLiveObjects: 2.348200 ms CreateObjectMapping: 5.330200 ms MarkObjects: 27.058100 ms  DeleteObjects: 19.368800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.266 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.634 seconds
+Domain Reload Profiling: 2904ms
+	BeginReloadAssembly (339ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (778ms)
+		LoadAssemblies (611ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (305ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (1063ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5964 unused Assets / (4.2 MB). Loaded Objects now: 6847.
+Memory consumption went from 173.4 MB to 169.2 MB.
+Total: 13.003900 ms (FindLiveObjects: 0.794400 ms CreateObjectMapping: 0.960200 ms MarkObjects: 7.041300 ms  DeleteObjects: 4.205800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1245.153769 seconds.
+  path: Assets/Mess Maker Free
+  artifactKey: Guid(1565ad89c37fbc84ab0aa06d533eb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free using Guid(1565ad89c37fbc84ab0aa06d533eb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5a6c86d3503f2906746b235e6011676') in 0.0418941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.920260 seconds.
+  path: Assets/Mess Maker Free/Prefabs
+  artifactKey: Guid(577dd5cc83f01a0498d4c59e38e486e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs using Guid(577dd5cc83f01a0498d4c59e38e486e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19464f7dde6841d10ee3633a34f7a2b9') in 0.0024804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918232 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets
+  artifactKey: Guid(aaf6d279b5f3c00459bdc4f6b326b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets using Guid(aaf6d279b5f3c00459bdc4f6b326b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d3882abdee15e56b06a7f22025fdb27') in 0.0154372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.509634 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets/Material
+  artifactKey: Guid(3ed8996337bdce34ba62493f5c6b9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets/Material using Guid(3ed8996337bdce34ba62493f5c6b9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71e356e0f40f3f32dd898d86c4df756') in 0.0032631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273296 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets/Material/Buildings.mat
+  artifactKey: Guid(af2c4ccbae32b734ba26fb184696a982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets/Material/Buildings.mat using Guid(af2c4ccbae32b734ba26fb184696a982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '942c0afaa9fb4eaf6d28e62ce786d383') in 3.2012514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets/Material/Grass.mat
+  artifactKey: Guid(adbf8e9ec8593f64b8727d25fd4e08c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets/Material/Grass.mat using Guid(adbf8e9ec8593f64b8727d25fd4e08c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3adeb0beea431374358e72fd0d3723dc') in 0.0336722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets/Material/Plain.mat
+  artifactKey: Guid(2d70637cc1cf12841a4294455b2c9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets/Material/Plain.mat using Guid(2d70637cc1cf12841a4294455b2c9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e827b242c8fb153cd443ba3d12de507a') in 5.3946101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets/Material/Tree.mat
+  artifactKey: Guid(56a9f540f4d15c84fb6ca8c596b889e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets/Material/Tree.mat using Guid(56a9f540f4d15c84fb6ca8c596b889e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c76dce4a6215dcb504366ff2930e50') in 0.0508113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Mess Maker Free/Scenes
+  artifactKey: Guid(0076d62d873a96c4787218ffc7d91233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Scenes using Guid(0076d62d873a96c4787218ffc7d91233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87f866b95158378298dbf536a2ea85ae') in 0.0014638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Mess Maker Free/Sample Scene Assets/Material/Road.mat
+  artifactKey: Guid(bb03a8dc74c39bc40b04cb6c5fd2a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Sample Scene Assets/Material/Road.mat using Guid(bb03a8dc74c39bc40b04cb6c5fd2a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a721f1876ef2cbb8ecc2911f6dc1f889') in 0.0590753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mess Maker Free/Scenes/All Assets SampleScene.unity
+  artifactKey: Guid(f0d286ba71f8aaa4a8debbe7766c694e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Scenes/All Assets SampleScene.unity using Guid(f0d286ba71f8aaa4a8debbe7766c694e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65e11027111da73038ef0ef101046703') in 0.0012594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.188552 seconds.
+  path: Assets/Mess Maker Free/Scenes/DemoScene.unity
+  artifactKey: Guid(ae7c4663b8b040044a87348bebe0eb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Scenes/DemoScene.unity using Guid(ae7c4663b8b040044a87348bebe0eb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d2dd7d8a69342c8248ddf0d01d3bf86') in 0.0022563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.950745 seconds.
+  path: Assets/Scenes/Gurun.unity
+  artifactKey: Guid(f6edbc5ea396c104585128aa84e103af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gurun.unity using Guid(f6edbc5ea396c104585128aa84e103af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7679135827df69678cc7f5f977d320d1') in 0.0780862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.009892 seconds.
+  path: Assets/1_Tile/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Tile/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18a1f7edc6dfe1f229db06c457bb1650') in 0.2245046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 524
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.812218 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker.prefab
+  artifactKey: Guid(ac1b1b5e1165c114684ef1b66f53b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker.prefab using Guid(ac1b1b5e1165c114684ef1b66f53b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11db2f285c4d6ea86d56a9539e077d20') in 0.0601767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker Poole High Poly.prefab
+  artifactKey: Guid(d9c7cf1a6a245e04f9d819e9df397dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker Poole High Poly.prefab using Guid(d9c7cf1a6a245e04f9d819e9df397dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '148def2324f012c351256382739e7ac5') in 0.1496134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 389
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker Poole Rocks.prefab
+  artifactKey: Guid(bdd419111585dfc448877e5ba79e1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker Poole Rocks.prefab using Guid(bdd419111585dfc448877e5ba79e1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c89be5260dc29279ec060ba3f95ed520') in 0.0980491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.232645 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly
+  artifactKey: Guid(5d5413e4b26be584798ac7e4a78b1d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly using Guid(5d5413e4b26be584798ac7e4a78b1d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cac385cf4733660bf7f2b9dc00dcbf50') in 0.0044211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.785309 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Blue Crushed.prefab
+  artifactKey: Guid(1a55f6ba8b72d7b4e90f993836efaad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Blue Crushed.prefab using Guid(1a55f6ba8b72d7b4e90f993836efaad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a915868494b7b2c5c1001c2bb4f007e') in 0.3956611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Green Crushed.prefab
+  artifactKey: Guid(abc805df2245a814aacfab1c9341525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Green Crushed.prefab using Guid(abc805df2245a814aacfab1c9341525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b40a9fc8ca48d1947c51363fcb409cf7') in 0.0734901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Mess Maker Free/obj/Rocks.fbx
+  artifactKey: Guid(038889cbc04bea049a8c892b50a09505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/obj/Rocks.fbx using Guid(038889cbc04bea049a8c892b50a09505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '803bdd84b357d8167b19403e7735fba8') in 66.66214859999999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab
+  artifactKey: Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red.prefab using Guid(b991a99ddd15f484282918f293debed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da0273b3ecd51df3276d8036c743d165') in 0.1669665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Orange Crushed.prefab
+  artifactKey: Guid(1710829442f9c9d4eb7b72a86cb006b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Orange Crushed.prefab using Guid(1710829442f9c9d4eb7b72a86cb006b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c0e6e7799b8e6426cc0699805878c1') in 0.0969485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Green Crushed.prefab
+  artifactKey: Guid(57bc59eb149f5e5459dea44ded379c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Green Crushed.prefab using Guid(57bc59eb149f5e5459dea44ded379c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e602b78977b5023c35f03500ad79e815') in 0.0483527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red Crushed.prefab
+  artifactKey: Guid(b77571231801e2c47ba0f08c87dbbdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Red Crushed.prefab using Guid(b77571231801e2c47ba0f08c87dbbdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f008b14226cd2fd805f5ff630071fb1') in 0.0274441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Red Crushed.prefab
+  artifactKey: Guid(38cec26c05d5a0c48ba8b226165d370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Red Crushed.prefab using Guid(38cec26c05d5a0c48ba8b226165d370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d7fe5c81c477d9efb35126836312ddd') in 0.070047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Green.prefab
+  artifactKey: Guid(bbc1f0fc0f45274428dade32ac94941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Green.prefab using Guid(bbc1f0fc0f45274428dade32ac94941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2f1cd683f0de529d959ca69773b3364') in 0.0338563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Red.prefab
+  artifactKey: Guid(3d33348b9920c1f4e953defda3545a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Beer Can Red.prefab using Guid(3d33348b9920c1f4e953defda3545a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ed49d9bc9c4492d04dbd648c737ceb1') in 0.04863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mess Maker Free/Scripts
+  artifactKey: Guid(54ee625f418efd04193e7915a1cc3cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Scripts using Guid(54ee625f418efd04193e7915a1cc3cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '294bee620bd42be630e7e5b6205415b0') in 0.0025589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mess Maker Free/Templates
+  artifactKey: Guid(0517893fcf731e645ac67425fa694cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Templates using Guid(0517893fcf731e645ac67425fa694cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cda64475b73d06a3d37a4bdb2b9ae43') in 0.003483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Orange.prefab
+  artifactKey: Guid(58600660537e3ce40948b0a74dd80ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Cans/Soda Can Orange.prefab using Guid(58600660537e3ce40948b0a74dd80ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a2e9929d0ffee51f7d1c7c693b08a7') in 0.0814041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red Broke 2.prefab
+  artifactKey: Guid(7899e43a811a2fe43ad1dea14f502569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red Broke 2.prefab using Guid(7899e43a811a2fe43ad1dea14f502569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '693605e936148e65ce4f729729c96b88') in 0.0847755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green with Label.prefab
+  artifactKey: Guid(189db782fd29ba749a4618c937fc6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green with Label.prefab using Guid(189db782fd29ba749a4618c937fc6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b146941349e944cc3d8816b5271e20d8') in 0.1004688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red Broke.prefab
+  artifactKey: Guid(57a334e30ddbb21469c98b6ebf5fa7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red Broke.prefab using Guid(57a334e30ddbb21469c98b6ebf5fa7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2947069f1ac4e89a0a88379aa9e51e61') in 5.4771403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Green with Label.prefab
+  artifactKey: Guid(20752bbf2f5d71944bcff39c7a6e686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Green with Label.prefab using Guid(20752bbf2f5d71944bcff39c7a6e686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '970ab8644ce43af857c13b49e26be95e') in 0.0888592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red with Label.prefab
+  artifactKey: Guid(00ebca87e53d6fe4293c88f252496dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red with Label.prefab using Guid(00ebca87e53d6fe4293c88f252496dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '040ba1d36a567fd22ec64c43e4f7dcdf') in 0.108453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001168 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Vodka Bottle.prefab
+  artifactKey: Guid(53cd7359f481927469e4321600596c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Vodka Bottle.prefab using Guid(53cd7359f481927469e4321600596c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8626d66baad7c3d3317f419045c5b1d') in 0.1409627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Red.prefab
+  artifactKey: Guid(094b5e0777b67a64f88ce0eb50166234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Red.prefab using Guid(094b5e0777b67a64f88ce0eb50166234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f2e125da2ce44dd9c3f2af1fb1348b3') in 0.0501644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Vodka Bottle with label.prefab
+  artifactKey: Guid(339314c23caf8624c92e84209ddaac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Vodka Bottle with label.prefab using Guid(339314c23caf8624c92e84209ddaac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a058c8eecb716a8bcd28a2d93c98627d') in 0.0307535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Red with Label.prefab
+  artifactKey: Guid(0978379453ae6ac4ea619bc92a25e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Red with Label.prefab using Guid(0978379453ae6ac4ea619bc92a25e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9756b162dd282dd7c181841118ebe947') in 0.0346356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green.prefab
+  artifactKey: Guid(cbce813fb81b1454f932fcd8872f015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green.prefab using Guid(cbce813fb81b1454f932fcd8872f015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0c66a845af7e43f2253e3acca9e38ab') in 0.0323094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red.prefab
+  artifactKey: Guid(202eba5672e16314589aab5392ac3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Red.prefab using Guid(202eba5672e16314589aab5392ac3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd24440a18aed46973fefae9201da7c') in 0.0229865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green Broke.prefab
+  artifactKey: Guid(3821453175ca30243b7074a7311765aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green Broke.prefab using Guid(3821453175ca30243b7074a7311765aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c76bfd29c94e7405261366b86f23e11') in 0.0297027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Blue with Label.prefab
+  artifactKey: Guid(adffeaf7a5f1f6a49b3d7d275ca84f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Blue with Label.prefab using Guid(adffeaf7a5f1f6a49b3d7d275ca84f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38238e845005a17c9cf43e1b967b8dc3') in 0.0443022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green Broke 2.prefab
+  artifactKey: Guid(942c90e4df32d33408f1180d942db9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green Broke 2.prefab using Guid(942c90e4df32d33408f1180d942db9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fafae15fa91b8f0e739bb53c0f41fa3') in 0.023594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles
+  artifactKey: Guid(8100eda82b94a7a4d926842e3fdadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles using Guid(8100eda82b94a7a4d926842e3fdadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef8965071eae6c0148343109a39b91f') in 0.0010111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Green.prefab
+  artifactKey: Guid(a4bc6c888d501594b815ad51f8e7f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Green.prefab using Guid(a4bc6c888d501594b815ad51f8e7f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '545f0865b36745e20c70de53eaec51ed') in 0.0339983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (2.3 MB). Loaded Objects now: 7019.
+Memory consumption went from 182.8 MB to 180.5 MB.
+Total: 30.306100 ms (FindLiveObjects: 0.931800 ms CreateObjectMapping: 1.272500 ms MarkObjects: 23.488600 ms  DeleteObjects: 4.611700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.054 seconds
+Refreshing native plugins compatible for Editor in 12.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.987 seconds
+Domain Reload Profiling: 22046ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (11542ms)
+		LoadAssemblies (5983ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5748ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (5700ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (9989ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (413ms)
+			ProcessInitializeOnLoadAttributes (7976ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5960 unused Assets / (3.1 MB). Loaded Objects now: 6901.
+Memory consumption went from 178.2 MB to 175.1 MB.
+Total: 41.527900 ms (FindLiveObjects: 3.015100 ms CreateObjectMapping: 4.761800 ms MarkObjects: 22.350600 ms  DeleteObjects: 11.397600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.952923 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker Poole High Poly.prefab
+  artifactKey: Guid(d9c7cf1a6a245e04f9d819e9df397dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker Poole High Poly.prefab using Guid(d9c7cf1a6a245e04f9d819e9df397dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f351ee009c4e8288711fb98094fc6bc') in 0.3101342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker Poole Low Poly.prefab
+  artifactKey: Guid(eb77577b68aca20459a725c42365a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker Poole Low Poly.prefab using Guid(eb77577b68aca20459a725c42365a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd5cf2981a931cf7c2d2dd790a8376b') in 0.0212758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker.prefab
+  artifactKey: Guid(ac1b1b5e1165c114684ef1b66f53b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker.prefab using Guid(ac1b1b5e1165c114684ef1b66f53b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd90e38433e46122e93f4dc3c0c2ed12f') in 0.0055976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker Poole Empty.prefab
+  artifactKey: Guid(643a9882a6816d04d8b5591b567abd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker Poole Empty.prefab using Guid(643a9882a6816d04d8b5591b567abd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce633bb1ac78a4f7699ef5c516d3a093') in 0.006158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Mess Maker Poole Rocks.prefab
+  artifactKey: Guid(bdd419111585dfc448877e5ba79e1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Mess Maker Poole Rocks.prefab using Guid(bdd419111585dfc448877e5ba79e1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c8f4405d84575998d32af6315bffff5') in 0.0057551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.017298 seconds.
+  path: Assets/Mess Maker Free/Materials/AppleCore Green.mat
+  artifactKey: Guid(e54c46fda7b9f6f458650f3be75c7919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/AppleCore Green.mat using Guid(e54c46fda7b9f6f458650f3be75c7919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c64e9b59627b47181deb2057a3b72e1') in 39.304541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Mess Maker Free/Materials/Soda Can Red.mat
+  artifactKey: Guid(4966f1481219a9f47afe8133f0b0d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Soda Can Red.mat using Guid(4966f1481219a9f47afe8133f0b0d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0c774a53c83c1651f1e179315051da5') in 0.2406221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Mess Maker Free/Materials/Glass Green.mat
+  artifactKey: Guid(a125e1c2678722f4ebfd2e5116f1a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Glass Green.mat using Guid(a125e1c2678722f4ebfd2e5116f1a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e90264558d38ec2111cd267162527d7a') in 0.0667974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Mess Maker Free/Materials/Beer Can Blue.mat
+  artifactKey: Guid(ab602f8cedd42fd45a3830047ce7acbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Beer Can Blue.mat using Guid(ab602f8cedd42fd45a3830047ce7acbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba193a51d7743e151980fae2400516e') in 0.0309442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mess Maker Free/Materials/Wine Label Green.mat
+  artifactKey: Guid(911d4198a6f0d3d4785efec0606553ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Wine Label Green.mat using Guid(911d4198a6f0d3d4785efec0606553ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a93e44e0f9eccf4e0673904c84a99765') in 0.0344205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mess Maker Free/Materials/Soda Can Green.mat
+  artifactKey: Guid(27887615c4509034aaad881d3a8efcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Soda Can Green.mat using Guid(27887615c4509034aaad881d3a8efcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c97209fcc60659b6e34e80af84d4c38d') in 0.0390608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mess Maker Free/Materials/Pottery.mat
+  artifactKey: Guid(deb7478fe65f5af4e85dac00cb9d1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Pottery.mat using Guid(deb7478fe65f5af4e85dac00cb9d1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3001b968fe37db17a0a7da0711387ed7') in 0.0274826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017309 seconds.
+  path: Assets/Mess Maker Free/obj/Rubbish.fbx
+  artifactKey: Guid(6ee79a39487f7bb4abefb33640b1f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/obj/Rubbish.fbx using Guid(6ee79a39487f7bb4abefb33640b1f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c43c598f6ebd5ab95d25248e795056a') in 47.3095949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 269
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.017408 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/CityMap.png
+  artifactKey: Guid(0ba8d0e67b8853248a06f8deff95e94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/CityMap.png using Guid(0ba8d0e67b8853248a06f8deff95e94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaa5fb43c92e3977b1d7f98cfd54cdae') in 2.2464893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Mess Maker Free/Materials/Textures/Wood Normal.png
+  artifactKey: Guid(3dd41c17629f83941aa2347b91373729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Materials/Textures/Wood Normal.png using Guid(3dd41c17629f83941aa2347b91373729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5afbcd883403da5485328604c09b1382') in 17.8588975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.991189 seconds.
+  path: Assets/Mess Maker Free/Used/Soda Can Red Crushed.prefab
+  artifactKey: Guid(b77571231801e2c47ba0f08c87dbbdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Used/Soda Can Red Crushed.prefab using Guid(b77571231801e2c47ba0f08c87dbbdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3da8287d5587018def3cd5590b98f2d6') in 0.0995117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.917 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.196 seconds
+Domain Reload Profiling: 19121ms
+	BeginReloadAssembly (619ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (73ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (181ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1138ms)
+		LoadAssemblies (816ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (588ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (487ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (17199ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (482ms)
+			ProcessInitializeOnLoadAttributes (9445ms)
+			ProcessInitializeOnLoadMethodAttributes (6379ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (108ms)
