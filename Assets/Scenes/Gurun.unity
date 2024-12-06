@@ -366,7 +366,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 250, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 253.1765, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &374156071
 MonoBehaviour:
@@ -1114,8 +1114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tiles:
   - {fileID: 5371388168229630973, guid: 51a39633887958f47a49eab5559b6dfc, type: 3}
-  - {fileID: 5371388168229630973, guid: f6f4b1963e269d84b8e00987a57dc887, type: 3}
-  - {fileID: 5371388168229630973, guid: 33b23b2fba5d91049b15fea63167799e, type: 3}
+  - {fileID: 5371388168229630973, guid: 51a39633887958f47a49eab5559b6dfc, type: 3}
+  - {fileID: 5371388168229630973, guid: 51a39633887958f47a49eab5559b6dfc, type: 3}
 --- !u!4 &1366496884
 Transform:
   m_ObjectHideFlags: 0

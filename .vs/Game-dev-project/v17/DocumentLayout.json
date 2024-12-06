@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\GitHub\\Game-dev-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Game-dev-project\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|d:\\github\\game-dev-project\\assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|d:\\github\\game-dev-project\\assets\\scripts\\main menu\\mainpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|D:\\GitHub\\Game-dev-project\\assets\\scripts\\main menu\\mainpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{903FFBC9-B271-96DD-E56A-DA0460EC3E1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu\\mainpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
+              "ToolTip": "D:\\GitHub\\Game-dev-project\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-12-06T18:10:16.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameOverUI.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\GameOverUI.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ModePanelController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\ModePanelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\ModePanelController.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPanelController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\MainPanelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\MainPanelController.cs",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Main Menu\\MainPanelController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T18:49:43.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T18:49:43.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Movement.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\MainMenuController.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DialogController.cs",
               "DocumentMoniker": "D:\\GitHub\\Game-dev-project\\Assets\\Scripts\\Main Menu\\DialogController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\DialogController.cs",

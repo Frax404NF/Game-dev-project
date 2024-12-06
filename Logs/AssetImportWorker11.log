@@ -1,0 +1,795 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\6000.0.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+D:/GitHub/Game-dev-project
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+62576
+-job-worker-count
+1
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/GitHub/Game-dev-project
+D:/GitHub/Game-dev-project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17848]  Target information:
+
+Player connection [17848]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 272719047 [EditorId] 272719047 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IC10J0GO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17848] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 16.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
+[Subsystems] Discovering subsystems at path D:/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Game-dev-project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     3984 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'D:/6000.0.29f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003611 seconds.
+- Loaded All Assemblies, in  0.639 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.486 seconds
+Domain Reload Profiling: 1126ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (222ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.154 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.176 seconds
+Domain Reload Profiling: 2330ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (782ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (260ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1177ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (690ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5964 unused Assets / (3.7 MB). Loaded Objects now: 6662.
+Memory consumption went from 164.0 MB to 160.3 MB.
+Total: 10.487500 ms (FindLiveObjects: 1.437500 ms CreateObjectMapping: 0.875700 ms MarkObjects: 5.611800 ms  DeleteObjects: 2.560800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116287.930476 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/DesertRocks.mat
+  artifactKey: Guid(df64b2ddea7920a40962d7aac24b2869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/DesertRocks.mat using Guid(df64b2ddea7920a40962d7aac24b2869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f87c1a187642d75bbc5cc57d5d75dc') in 1.5282332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.635831 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Flower 1.mat
+  artifactKey: Guid(dec2bf9b0a5eb334194159f5725e226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Flower 1.mat using Guid(dec2bf9b0a5eb334194159f5725e226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca26bf36f65cc6f7903eba2bfa362592') in 0.0349662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.561431 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Flower.mat
+  artifactKey: Guid(a0eb1ba83e4b048409871a19b9850bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Flower.mat using Guid(a0eb1ba83e4b048409871a19b9850bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72ccf2c1764c404eda388498fc4344b') in 0.0582317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.819089 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Aloe 1.mat
+  artifactKey: Guid(bf64787469366b547a13887881378ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Aloe 1.mat using Guid(bf64787469366b547a13887881378ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe107041b0efcce5668863a59ee277c5') in 0.0524967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.196854 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Aloe.mat
+  artifactKey: Guid(a58be5973538d264eb695c3db32e1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Aloe.mat using Guid(a58be5973538d264eb695c3db32e1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad34c283e56453ad923eb9e6283d7fad') in 0.0536611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.441699 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/New Terrain.asset
+  artifactKey: Guid(e7768f54d1f39eb449aff729ac8ca838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/New Terrain.asset using Guid(e7768f54d1f39eb449aff729ac8ca838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b7616fbb21ea6495b2c38a79dadcdeb') in 0.0682105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.244885 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10ce418004634a89ab3f7b6382a7701c') in 0.2117955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 235
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.901083 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '675c2c008b73fc160b586765723e568a') in 0.0419856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 235
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.437708 seconds.
+  path: Assets/Props/Aloe.mat
+  artifactKey: Guid(12a4d28765a65bd42a8db8654380ab5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Aloe.mat using Guid(12a4d28765a65bd42a8db8654380ab5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fa0a682b083e9d7610dd84aeafa4104') in 0.0301607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.112451 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60cddef13ff598d17caca20aebf2585f') in 0.0752199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.556516 seconds.
+  path: Assets/Props/Aloe.mat
+  artifactKey: Guid(ccf20707d4bf4d343ad3c6041ba9e369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Aloe.mat using Guid(ccf20707d4bf4d343ad3c6041ba9e369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7677521a88609301f930969c6e791c1') in 0.0311323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.656425 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd48be14cd31cd965376cbec96f7649') in 0.066984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.895678 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f541b20addbd0e4d88f35f5bdc886d20') in 0.0601412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.253063 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1cd21c4a1f9b48eebb99fec2c10156') in 0.0722136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.937220 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '965790cd1a7d7b4773f9b607d1fdd4e1') in 0.0705096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.510553 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a2f224fc3e5433e8d817f7ff3da1cc4') in 0.0568989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.853648 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a0f3c3b635dd7f587f8fdcd6f12caf4') in 0.0790299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.222586 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '633ae4adc6453eb0e712984b866b9add') in 0.0855771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.519 seconds
+Refreshing native plugins compatible for Editor in 154.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.948 seconds
+Domain Reload Profiling: 8483ms
+	BeginReloadAssembly (510ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (824ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (413ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (373ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (6961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4855ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (687ms)
+			ProcessInitializeOnLoadAttributes (3586ms)
+			ProcessInitializeOnLoadMethodAttributes (489ms)
+			AfterProcessingInitializeOnLoad (64ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (95ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5962 unused Assets / (2.1 MB). Loaded Objects now: 6749.
+Memory consumption went from 153.4 MB to 151.3 MB.
+Total: 12.598800 ms (FindLiveObjects: 1.011800 ms CreateObjectMapping: 1.077400 ms MarkObjects: 7.552900 ms  DeleteObjects: 2.954800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.760 seconds
+Refreshing native plugins compatible for Editor in 13.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.793 seconds
+Domain Reload Profiling: 8562ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (1266ms)
+		LoadAssemblies (564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (882ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (825ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (6798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3790ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (130ms)
+			BeforeProcessingInitializeOnLoad (884ms)
+			ProcessInitializeOnLoadAttributes (2298ms)
+			ProcessInitializeOnLoadMethodAttributes (407ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (130ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5960 unused Assets / (3.7 MB). Loaded Objects now: 6751.
+Memory consumption went from 151.6 MB to 147.9 MB.
+Total: 22.444200 ms (FindLiveObjects: 2.542400 ms CreateObjectMapping: 1.482200 ms MarkObjects: 10.340200 ms  DeleteObjects: 8.076300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 109.556437 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Meshes
+  artifactKey: Guid(89a4ce1f36a99834e83983fa9aafb62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Meshes using Guid(89a4ce1f36a99834e83983fa9aafb62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9773b70c2374fd13e2db6796f21b51b') in 0.0218405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924615 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/DesertScene
+  artifactKey: Guid(35d6cea4d74ec3747b4060535146f854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/DesertScene using Guid(35d6cea4d74ec3747b4060535146f854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6988e44760211187816a154c0e9ac204') in 0.0036453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008163 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/DesertScene/LightingData.asset
+  artifactKey: Guid(376ebd245f987904cbe3f00596e0a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/DesertScene/LightingData.asset using Guid(376ebd245f987904cbe3f00596e0a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '525d49b22e727340a2124e760cfea89b') in 0.0775274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.011330 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/DesertScene.unity
+  artifactKey: Guid(53f5a0914b195b74abc2fb43a9e2ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/DesertScene.unity using Guid(53f5a0914b195b74abc2fb43a9e2ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6cb4dfdeaa6d998bf48f48974eb9f9e') in 0.0041439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.646025 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0737e2d053e658f8aced4a29c864fef4') in 1.1077528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.552039 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e1e6ff182d125c2dc49f69208ed2dd') in 0.0589743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.295755 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bb80d1212defbbcb4e29ee50490bec8') in 0.0465691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809516 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e577a42dd1dee3807849a9382d2138bb') in 0.0854065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.059504 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c6d9fbd513a0187b36cab391827c46c') in 0.0466569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.969492 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '906fcf17eee94c0fdc3d037399bf7f42') in 0.0529733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.137359 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eb9b52c2d7e51c65fec4a55dbbc3b34') in 0.0513099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.145131 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cce963b4272ef296da414b08230a1fa') in 0.0598681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.038012 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d44dcb53333cdc14b29ef69af57d513') in 0.0535827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.602628 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16081cceded341bce8727cd99e0b0980') in 0.0503323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.277524 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f60e88338b973340e9dc54806786728c') in 0.0494185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.139399 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f0a169d4306e3e3cddbe797d7361fea') in 0.0677972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.111411 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9cd2b2f411c4927e667ee8cc7599f55') in 0.0511775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.617252 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77808b7a1b02ade281981770145cbf1d') in 0.0596596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.442386 seconds.
+  path: Assets/Props/Tile 2.prefab
+  artifactKey: Guid(a196c465701ed9447bfc825ff56f9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 2.prefab using Guid(a196c465701ed9447bfc825ff56f9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9accafb16c36ef9f5fd0fef8b359ae1b') in 0.1137713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.906362 seconds.
+  path: Assets/Props/Tile 3.prefab
+  artifactKey: Guid(85daf76b99e9e664483e11750decf6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 3.prefab using Guid(85daf76b99e9e664483e11750decf6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fde18c1456e50ad56176a4dc925b816e') in 0.4349194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.223 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.985 seconds
+Domain Reload Profiling: 9218ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (708ms)
+		LoadAssemblies (545ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (295ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (7991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (792ms)
+			ProcessInitializeOnLoadAttributes (6285ms)
+			ProcessInitializeOnLoadMethodAttributes (298ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (95ms)
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5961 unused Assets / (3.5 MB). Loaded Objects now: 6773.
+Memory consumption went from 155.9 MB to 152.3 MB.
+Total: 39.527900 ms (FindLiveObjects: 1.046900 ms CreateObjectMapping: 3.579600 ms MarkObjects: 23.839200 ms  DeleteObjects: 11.060400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 254.476023 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab
+  artifactKey: Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab using Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7f820b4126326e722449d1231e2d014') in 2.4985517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 779.966476 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg
+  artifactKey: Guid(4669734e20ee6e44a834b631800cc1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg using Guid(4669734e20ee6e44a834b631800cc1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e1ceaef59344078ff5f1cc9ae7e93f') in 0.0019089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.571835 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock01.prefab
+  artifactKey: Guid(4c087c5d1c4a98f408b9c6da5405c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock01.prefab using Guid(4c087c5d1c4a98f408b9c6da5405c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c13b26d1bc456d4aed54460ea09caf') in 0.1082343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock06.prefab
+  artifactKey: Guid(6fa62b3820d991f4ebd865cd07727e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock06.prefab using Guid(6fa62b3820d991f4ebd865cd07727e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f261d80b7afcaf91b1ea4bb55093040f') in 0.0520769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock08.prefab
+  artifactKey: Guid(31e3dd7601dbcfb47abd667c4b8afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock08.prefab using Guid(31e3dd7601dbcfb47abd667c4b8afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3b3d7dc4fbc2d79fe55987bbf70b8db') in 0.0526834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.235934 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/New Material.mat
+  artifactKey: Guid(5bfdd7f7e2ddd274ab46bf25ffdad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/New Material.mat using Guid(5bfdd7f7e2ddd274ab46bf25ffdad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '728e76901f4e61cc0ac472d7b17634ab') in 0.1340558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.081939 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock08.prefab
+  artifactKey: Guid(31e3dd7601dbcfb47abd667c4b8afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock08.prefab using Guid(31e3dd7601dbcfb47abd667c4b8afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6062b3ec2d68e77c4b600e373da20edf') in 0.0463108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.839223 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock06.prefab
+  artifactKey: Guid(6fa62b3820d991f4ebd865cd07727e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock06.prefab using Guid(6fa62b3820d991f4ebd865cd07727e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6813153215800e3441449efeba8c19f0') in 0.0485775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.155437 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock05.prefab
+  artifactKey: Guid(78d908ceef4cf0848a7765ed66f32db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock05.prefab using Guid(78d908ceef4cf0848a7765ed66f32db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bfaf492ada4ebc5dd69b7af3dc986db') in 0.0391336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.614741 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock04.prefab
+  artifactKey: Guid(e82c1fd909bd8f44e860f1b88cafa804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock04.prefab using Guid(e82c1fd909bd8f44e860f1b88cafa804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc9c498514d4cf799bbda5e85bb5c3e3') in 0.0421169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.979389 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock01.prefab
+  artifactKey: Guid(4c087c5d1c4a98f408b9c6da5405c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock01.prefab using Guid(4c087c5d1c4a98f408b9c6da5405c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e584fbb08173a8c783163041f8af7fb') in 0.0615285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.057752 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock01.prefab
+  artifactKey: Guid(4c087c5d1c4a98f408b9c6da5405c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock01.prefab using Guid(4c087c5d1c4a98f408b9c6da5405c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1e3a0e66f7d7a6a0684b3016a24b6db') in 0.0386639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.340875 seconds.
+  path: Assets/Props/Tile 1.prefab
+  artifactKey: Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Tile 1.prefab using Guid(51a39633887958f47a49eab5559b6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2052e6ce10460cab7d38c204ec34da09') in 0.0763766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 340
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.265484 seconds.
+  path: Assets/Tile
+  artifactKey: Guid(7ba3377de02e7424c9289cc2d37dcfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile using Guid(7ba3377de02e7424c9289cc2d37dcfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b6e777b8b1520ce2b7cd314e5c803f') in 0.0036977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.199995 seconds.
+  path: Assets/1_Tile
+  artifactKey: Guid(7ba3377de02e7424c9289cc2d37dcfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1_Tile using Guid(7ba3377de02e7424c9289cc2d37dcfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3941171d82a56f0a08a35c1d15955c2') in 0.001089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.909313 seconds.
+  path: Assets/Materials/hay.mat
+  artifactKey: Guid(b276cf8c109945f4da3efb24432aec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/hay.mat using Guid(b276cf8c109945f4da3efb24432aec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3db40d547fcadf24b9cada8f8bd97185') in 0.0551249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.893426 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/New Material.mat
+  artifactKey: Guid(5bfdd7f7e2ddd274ab46bf25ffdad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/New Material.mat using Guid(5bfdd7f7e2ddd274ab46bf25ffdad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96c9248a948f1c9d3b3c896c60ce63b5') in 0.1653979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock06.prefab
+  artifactKey: Guid(6fa62b3820d991f4ebd865cd07727e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock06.prefab using Guid(6fa62b3820d991f4ebd865cd07727e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fdf0f9b5a6c6d81d37f3d86b1cc7d87') in 0.0607665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock05.prefab
+  artifactKey: Guid(78d908ceef4cf0848a7765ed66f32db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock05.prefab using Guid(78d908ceef4cf0848a7765ed66f32db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb34949da144148fc75b4b55cd052da1') in 0.0708439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock08.prefab
+  artifactKey: Guid(31e3dd7601dbcfb47abd667c4b8afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/BATU blkg/rock08.prefab using Guid(31e3dd7601dbcfb47abd667c4b8afde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf133fc7d7f7755ad3b3f9817c4cf463') in 0.110294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
