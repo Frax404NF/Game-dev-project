@@ -71,6 +71,8 @@ public class MainPanelController : MonoBehaviour
     // Fungsi untuk tombol Mode 2
     public void OnMode2ButtonClicked()
     {
+        // Mengatur waktu agar berjalan normal
+        Time.timeScale = 1;
         // Pindah ke scene kedua
         SceneManager.LoadScene(scene2Name);
     }

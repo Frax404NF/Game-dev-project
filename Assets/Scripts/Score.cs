@@ -24,7 +24,7 @@ public class Score : MonoBehaviour
 
     private void Update()
     {
-        ScoreTextOrg.text = "Organik :" + scoreOrg.ToString();
-        ScoreTextUnorg.text = "Unorganik :" + scoreUnorg.ToString();
+        ScoreTextOrg.text = "Organic :" + scoreOrg.ToString();
+        ScoreTextUnorg.text = "Unorganic :" + scoreUnorg.ToString();
     }
 }

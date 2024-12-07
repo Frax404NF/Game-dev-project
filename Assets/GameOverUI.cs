@@ -19,6 +19,7 @@ public class GameOverUI : MonoBehaviour
     {
         // Memuat scene MainMenu
         SceneManager.LoadScene("MainMenu");
+        
     }
 }
     

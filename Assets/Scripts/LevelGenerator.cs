@@ -5,21 +5,24 @@ using UnityEngine;
 public class LevelGenerator : MonoBehaviour
 {
     public GameObject[] _tiles;
+    public GameObject _startTile1; // Tile tetap 1
+    public GameObject _startTile2; // Tile tetap 2
 
     private float Index = 0;
 
     private void Start()
     {
-        int randomTile = Random.Range(0, _tiles.Length);
-        GameObject StartPlane1 = Instantiate(_tiles[randomTile], transform);
+        // Spawn StartTile1
+        GameObject StartPlane1 = Instantiate(_startTile1, transform);
         StartPlane1.transform.position = new Vector3(7, 0, 0);
 
-        int randomTile2 = Random.Range(0, _tiles.Length);
-        GameObject StartPlane2 = Instantiate(_tiles[randomTile2], transform);
+        // Spawn StartTile2
+        GameObject StartPlane2 = Instantiate(_startTile2, transform);
         StartPlane2.transform.position = new Vector3(-1, 0, 0);
 
-        int randomTile3 = Random.Range(0, _tiles.Length);
-        GameObject StartPlane3 = Instantiate(_tiles[randomTile3], transform);
+        // Spawn random tile berikutnya
+        int randomTile = Random.Range(0, _tiles.Length);
+        GameObject StartPlane3 = Instantiate(_tiles[randomTile], transform);
         StartPlane3.transform.position = new Vector3(-9, 0, 0);
     }
 
